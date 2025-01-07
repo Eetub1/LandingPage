@@ -1,0 +1,159 @@
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*div {
+    border: 1px solid red;
+}*/
+
+#header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    border : 0;
+    color: #F9FAF8;
+    
+}
+
+#headerlinks {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 19rem;
+}
+
+.headerlink {
+    margin-left: 1rem;
+}
+
+#info {
+    background-color: #1f2937;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#infotext {
+    width: 40vw;
+    color: #F9FAF8;
+}
+
+#infobtn {
+    border-radius: 5px;
+    background: #3882f6;
+    width: 5rem;
+    color: #F9FAF8;
+}
+
+#greybox {
+    background-color: grey;
+    height: 12vh;
+    width: 40vw;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info2 {
+    background-color: white;
+    height: 25vh;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem 0 3rem;
+}
+
+#info2text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#images-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.imgdiv {
+    width: 7.5vw;
+    height: 6vh;
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+}
+
+.imgtext {
+    text-align: center;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    height: 22vh;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup {
+    background-color: white;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+#advert {
+    background-color: #3882f6;
+    border-radius: 5px;
+    height: 8vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#advertText {
+    margin-right: 1rem;
+    line-height: 0.5rem;
+}
+
+#lowerText {
+    font-size: 0.7rem;
+}
+
+#btn {
+    border-radius: 5px;
+    background: #3882f6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    width: 5rem;
+}
+
+#footer {
+    background-color: #1f2937;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+#footerText {
+    font-size: 0.75rem;
+}
